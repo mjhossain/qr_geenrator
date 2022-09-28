@@ -13,7 +13,7 @@ qr.make()
 
 img = qr.make_image(fill_color='black', back_color='white')
 
-name = input("Please Enter a Nmae for the QR Code: ")
+name = input("Please Enter a Name for the QR Code: ")
 
 if name != '':
     img.save(name + '.png')
